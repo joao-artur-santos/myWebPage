@@ -25,7 +25,7 @@ clickImg.addEventListener("click", () => {
     nomeImg.style.opacity = "1"; 
 
     setTimeout(() => {
-      window.location.href = "/Users/joaoartursantos/Desktop/OneDrive/Documentos/PROGRAMAÇÃO/LeWagon/index.html";
+      window.location.href = "/Users/joaoartursantos/Desktop/myWebPage/html/front.html";
   }, 4100);
 }, 4100);
 });
