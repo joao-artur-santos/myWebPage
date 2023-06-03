@@ -1,0 +1,281 @@
+.bdy {
+    overflow: auto;
+    background: linear-gradient(315deg, rgb(0, 0, 0) 3%, rgb(136, 136, 136), rgb(61, 45, 0) 38%, rgb(61, 47, 10) 68%, rgb(57, 57, 56) 98%);
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+    margin: 0px;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+
+    50% {
+        background-position: 100% 100%;
+    }
+
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+.logo {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.hx {
+    padding-left: 10%;
+    padding-top: 3%;
+    padding-bottom: 1%;
+    color: white;
+    font-family: sans-serif;
+}
+
+.squares {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-gap: 30px;
+    color: black;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: sans-serif;
+    height: auto;
+}
+
+.square {
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 7%;
+    background-color: white;
+    box-shadow: 10px 20px 30px black;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.square:hover {
+    transition: transform 0.5s ease-in-out;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+h2 {
+    padding-top: 10%;
+    color: black;
+}
+
+.img-x {
+    width: 100%;
+    height: 75%;
+    box-shadow: 5px 10px 20px black;
+    border-radius: 10px;
+    max-width: 100%; /* Adicione essa linha para limitar a largura máxima da imagem */
+    height: auto; /* Adicione essa linha para manter a proporção da imagem */
+}
+
+.bottom {
+    margin-top: 5%;
+    margin-bottom: 0px;
+}
+
+.hy {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: white;
+    font-family: sans-serif;
+    padding-left: 10%;
+    padding-right: 10%;
+    letter-spacing: 2px;
+    line-height: 1.15;
+}
+
+.text-x {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+.img-y {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 0px;
+    ;
+}
+
+.info-about {
+    margin-left: 10%;
+    margin-right: 10%;
+    box-shadow: 10px 20px 30px black;
+}
+
+.foto-x {
+    height: 100%;
+    width: 100%;
+}
+
+.cv {
+    margin-top: 10%;
+    cursor: pointer;
+}
+
+.logos {
+    margin-top: 2%;
+    margin-right: 10%;
+    display: flex;
+    text-align: right;
+    justify-content: end;
+
+}
+
+.foto-z {
+    height: 40px;
+    width: 40px;
+    margin-left: 5px;
+    display: flex;
+    text-align: right;
+}
+
+.foto-z:hover {
+    transition: transform 0.5s ease-in-out;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.foto-w {
+    height: 50px;
+    width: 55px;
+}
+
+.phrase {
+    text-align: center;
+    padding-top: 6%;
+    color: white;
+    font-family: sans-serif;
+    padding-left: 10%;
+    padding-right: 10%;
+    letter-spacing: 2px;
+    line-height: 1.15;
+}
+
+.foto-t {
+    height: 50px;
+    width: 140px;
+    margin-left: 5px;
+    display: flex;
+    text-align: right;
+}
+
+.foto-t:hover {
+    transition: transform 0.5s ease-in-out;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.info-about-mel {
+    margin-left: 15%;
+    margin-right: 15%;
+    box-shadow: 10px 20px 30px black;
+    margin-top: 5%;
+}
+
+.squares-work {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 60px;
+    color: black;
+    margin-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: sans-serif;
+    height: auto;
+}
+
+.square-work {
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    background-color: white;
+    box-shadow: 10px 20px 30px black;
+    border-radius: 10px;
+}
+
+.img-x-v {
+    width: 100%;
+    height: 46%;
+    box-shadow: 10px 20px 30px black;
+    margin-bottom: 10%;
+    max-width: 100%; /* Adicione essa linha para limitar a largura máxima da imagem */
+    height: auto; /* Adicione essa linha para manter a proporção da imagem */
+}
+
+.img-x-v:hover {
+    transition: transform 0.5s ease-in-out;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.h4-x {
+    letter-spacing: 2px;
+    line-height: 1.15;
+    text-align: justify;
+    padding-top: 5%;
+    font-family: sans-serif;
+}
+
+.logo-pro {
+    width: 100%;
+    height: 100%;
+    margin-top: 15%;
+}
+
+.phrase-x {
+    text-align: center;
+    padding-top: 3%;
+    color: white;
+    font-family: sans-serif;
+    padding-left: 10%;
+    padding-right: 10%;
+    letter-spacing: 2px;
+    line-height: 1.15;
+}
+
+.container-logo-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logotipo-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-height: 50%;
+    max-width: 50%;
+    margin-bottom: 6%;
+}
+
+.navbar {
+    background-color: #333;
+    font-family: sans-serif;
+  }
+
+  .navbar a {
+    color: rgb(0, 0, 0);
+    padding: 0.5%;
+    font-family: sans-serif;
+    text-shadow: 10px 20px 30px #000000;
+  }
+
+  .navbar a:hover {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+  }
