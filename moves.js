@@ -25,7 +25,7 @@ clickImg.addEventListener("click", () => {
     nomeImg.style.opacity = "1"; 
 
     setTimeout(() => {
-      window.location.href = "/Users/joaoartursantos/Desktop/myWebPage/html/front.html";
+      window.location.href = "/Users/joaoartursantos/Desktop/myWebPage/front.html";
   }, 4100);
 }, 4100);
 });
